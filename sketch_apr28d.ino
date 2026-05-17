@@ -294,7 +294,7 @@ void controlLEDsAndSound() {
     digitalWrite(PIN_BLUE_LED, LOW);
     
     if (soundEnabled) {
-      // Непрерывное "пииииииииииииии" 2 секунды
+      // Непрерывное "пииииииииииииии" 1 секунду
       myTone(PIN_BUZZER, 1000, 1000);
       delay(100);
     }
